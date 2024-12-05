@@ -1,0 +1,17 @@
+countdigits.py (shortened to about 200 words):
+In this program, I convert a user-input positive integer into a string to analyze its digits. Three variables, zero_count, odd_count, and even_count, start at zero. I iterate through each digit, incrementing zero_count if it's '0' and even_count if it's even. If a digit is neither '0' nor even, it's counted as odd, increasing odd_count. Potential errors are handled with a try block. After obtaining a valid input, I call the count_digits function and display the counts. Errors are managed by displaying an error message if the input is not a positive integer.
+
+birthday_candles.py (shortened to about 200 words):
+This program calculates the number of candle boxes needed for 100 years of birthdays. It starts with total_boxes and remaining_candles at zero. A loop simulates each year, calculating the required candles based on age. If there are enough remaining candles, they are used; otherwise, boxes are purchased to cover the shortfall. Messages about buying boxes are displayed only when necessary. Finally, it prints the total boxes bought and remaining candles after 100 years of birthdays.
+
+abcd.py (shortened to about 200 words):
+In this program, a function named get_number combines four input digits (a, b, c, and d) into a four-digit number (ABCD). Nested loops iterate through all possible combinations of these digits. For each combination, I calculate two numbers, DCBA and ABCD, and check if DCBA is four times ABCD. If true, I display the values of A, B, C, and D that satisfy the equation.
+
+pi_approx.py (shortened to about 200 words):
+This program estimates the value of pi using a Monte Carlo simulation. It defines a function estimate_pi(N) that generates N random points within a unit square and counts how many fall inside the unit circle. The ratio of points inside the circle to total points approximates pi, which is then multiplied by 4 and returned. The main part of the code loops through different values of N, estimates pi, and calculates the error compared to the actual value of pi.
+
+salary_revision.py (shortened to about 200 words):
+This program calculates the median, average, and salary gap of a list of salaries. It prompts the user for a space-separated string of salaries, converts them to individual values, and sorts them. It then computes the median by finding the middle value for odd counts or averaging the two middle values for even counts. The average is calculated by summing all salaries and dividing by the total count. The salary gap is determined by finding the difference between the highest and lowest salaries. Finally, the program displays the calculated median, average, and salary gap to the user.
+
+drunken_sailor.py (shortened to about 200 words):
+This program simulates drunken sailors on a platform. It uses the 'random' module to simulate sailors' movements. The 'simulate_drunken_sailors' function tracks how many sailors fall into the water. For each sailor, it initializes their position on the platform and randomly determines their steps (up, down, left, or right). If a sailor goes outside the platform, they are considered fallen, and the count increases. The main part of the code takes user input for platform size, maximum steps, and the number of sailors. It then calls the simulation function and calculates the percentage of sailors who fell into the water, displaying the result to the user.
